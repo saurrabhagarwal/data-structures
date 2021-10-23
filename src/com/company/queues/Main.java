@@ -1,7 +1,6 @@
 package com.company.queues;
 
 import com.company.linkedlist.Employee;
-import com.company.stack.ArrayStack;
 
 public class Main {
 

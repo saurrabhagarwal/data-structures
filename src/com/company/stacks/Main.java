@@ -1,6 +1,5 @@
-package com.company.stack;
+package com.company.stacks;
 
-import com.company.doublylinkedlist.EmployeeDoublyLinkedList;
 import com.company.linkedlist.Employee;
 
 public class Main {
