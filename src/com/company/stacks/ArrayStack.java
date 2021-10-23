@@ -1,4 +1,4 @@
-package com.company.stack;
+package com.company.stacks;
 
 import com.company.linkedlist.Employee;
 
