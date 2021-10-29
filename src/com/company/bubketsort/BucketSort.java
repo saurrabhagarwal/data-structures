@@ -2,7 +2,7 @@ package com.company.bubketsort;
 
 import java.util.*;
 
-public class Main {
+public class BucketSort {
     public static void main(String[] args) {
         int[] intArray = {54, 46, 83, 66, 95, 92, 43};
         bucketSort(intArray);
