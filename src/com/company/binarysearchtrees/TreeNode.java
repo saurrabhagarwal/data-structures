@@ -2,20 +2,20 @@ package com.company.binarysearchtrees;
 
 public class TreeNode {
     private int data;
-    private com.company.binarysearchtrees.TreeNode leftChild;
-    private com.company.binarysearchtrees.TreeNode rightChild;
+    private TreeNode leftChild;
+    private TreeNode rightChild;
 
     public void insert(int value) {
         if (value == data)
             return;                 // Duplicates not allowed
         if (value < data) {
             if (leftChild == null)
-                leftChild = new com.company.binarysearchtrees.TreeNode(value);
+                leftChild = new TreeNode(value);
             else
                 leftChild.insert(value);
         } else {
             if (rightChild == null)
-                rightChild = new com.company.binarysearchtrees.TreeNode(value);
+                rightChild = new TreeNode(value);
             else
                 rightChild.insert(value);
         }
@@ -32,7 +32,7 @@ public class TreeNode {
             rightChild.traverseInOrder();
     }
 
-    public com.company.binarysearchtrees.TreeNode get(int value) {
+    public TreeNode get(int value) {
         if (data == value)
             return this;
         if (value > data)
@@ -70,19 +70,19 @@ public class TreeNode {
         this.data = data;
     }
 
-    public com.company.binarysearchtrees.TreeNode getLeftChild() {
+    public TreeNode getLeftChild() {
         return leftChild;
     }
 
-    public void setLeftChild(com.company.binarysearchtrees.TreeNode leftChild) {
+    public void setLeftChild(TreeNode leftChild) {
         this.leftChild = leftChild;
     }
 
-    public com.company.binarysearchtrees.TreeNode getRightChild() {
+    public TreeNode getRightChild() {
         return rightChild;
     }
 
-    public void setRightChild(com.company.binarysearchtrees.TreeNode rightChild) {
+    public void setRightChild(TreeNode rightChild) {
         this.rightChild = rightChild;
     }
 
