@@ -45,4 +45,33 @@ public class EmployeeLinkedList {
     public void setSize(int size) {
         this.size = size;
     }
+    
+   /* public void sort() {
+
+Node a = head;
+
+while (a.next != null) {
+
+Node b= head;
+
+while (b.next != null) {
+
+if (b.value < b.next.value) {
+
+int c = b.value; 
+b.value = b.next.value;
+
+b.next.value = c;
+
+}
+
+b = b.next;
+
+}
+
+a = a.next;
+
+}
+
+}*/
 }
